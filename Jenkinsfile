@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('Run Tests') {
+    stage('compile Tests') {
       steps {
         sh 'mvn clean package'
       }}
